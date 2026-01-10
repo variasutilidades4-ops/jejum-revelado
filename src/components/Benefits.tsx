@@ -47,7 +47,7 @@ const Benefits = () => {
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Milhares de estudos científicos comprovam os benefícios do jejum intermitente 
-            para sua saúde física e mental.
+            para sua saúde física e mental e eu sou a prova viva de que isso funciona MUITO!!
           </p>
         </div>
 

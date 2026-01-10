@@ -1,4 +1,4 @@
-import { ArrowDown, Leaf, Timer, Heart } from "lucide-react";
+import { ArrowDown, Leaf, Timer, Heart, Calendar1 } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -17,48 +17,64 @@ const Hero = () => {
               <Leaf className="w-4 h-4" />
               <span className="text-sm font-medium">Método 100% Natural</span>
             </div>
-            
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+
+            <h1 className="text-4xl md:text-6xl lg:text-6xl font-extrabold leading-tight mb-6">
               Descubra{" "}
+              <br />
               <span className="font-display italic text-gradient-gold">
                 Os Segredos do Jejum
               </span>
               <br />
               e Transforme Sua Vida
             </h1>
-            
+
             <p className="text-lg md:text-xl opacity-90 mb-8 max-w-xl mx-auto lg:mx-0">
-              O guia definitivo que já ajudou <strong>+5.000 pessoas</strong> a perderem peso, 
-              aumentarem a energia e conquistarem uma saúde de ferro através do jejum intermitente.
+              Os Segredos do Jejum te proporcionará: perda de peso,
+              aumento a sua energia e uma saúde de ferro, sem remédio, sem pílulas mágicas.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10">
               <a href="#oferta" className="btn-cta pulse-glow">
-                QUERO TRANSFORMAR MINHA VIDA
+                <span className="font-bold md:text-2xl">
+                  QUERO TRANSFORMAR MINHA VIDA
+                </span>
                 <ArrowDown className="w-5 h-5 ml-2" />
               </a>
             </div>
+            <div className="grid grid-cols-2 gap-y-8 gap-x-4 max-w-md mx-auto lg:mx-0">
 
-            {/* Quick benefits */}
-            <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+              {/* Item 1 */}
+              <div className="flex flex-col items-center text-center gap-2">
+                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                   <Timer className="w-5 h-5" />
                 </div>
-                <span className="text-sm">Resultados em 7 dias</span>
+                <span className="text-sm font-medium">Resultados em 7 dias</span>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+
+              {/* Item 2 */}
+              <div className="flex flex-col items-center text-center gap-2">
+                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                   <Heart className="w-5 h-5" />
                 </div>
-                <span className="text-sm">Método comprovado</span>
+                <span className="text-sm font-medium">Método comprovado</span>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+
+              {/* Item 3 */}
+              <div className="flex flex-col items-center text-center gap-2">
+                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                   <Leaf className="w-5 h-5" />
                 </div>
-                <span className="text-sm">100% Natural</span>
+                <span className="text-sm font-medium">100% Natural</span>
               </div>
+
+              {/* Item 4 */}
+              <div className="flex flex-col items-center text-center gap-2">
+                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                  <Calendar1 className="w-5 h-5" />
+                </div>
+                <span className="text-sm font-medium">Comece hoje</span>
+              </div>
+
             </div>
           </div>
 
