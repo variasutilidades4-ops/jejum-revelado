@@ -67,7 +67,7 @@ const Hero = () => {
             <div className="relative floating">
               <div className="w-80 h-80 md:w-96 md:h-96 mx-auto rounded-3xl bg-white/20 backdrop-blur-sm border border-white/30 flex items-center justify-center overflow-hidden shadow-2xl">
                 <div className="text-center p-8">
-                  <img src="public/assets/capa-jejum.jpeg" alt="Capa do E-book" className="w-48 h-auto mx-auto" />
+                  <img src="/assets/capa-jejum.jpeg" alt="Capa do E-book" className="w-48 h-auto mx-auto" />
                 </div>
               </div>
               {/* Floating badge */}
