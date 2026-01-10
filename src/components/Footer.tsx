@@ -14,15 +14,9 @@ const Footer = () => {
             Transforme sua saúde e sua vida através do poder do jejum intermitente.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-white/60 mb-8">
-            <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
-            <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
-            <a href="#" className="hover:text-white transition-colors">Contato</a>
-          </div>
-
           <div className="border-t border-white/10 pt-6">
             <p className="text-white/40 text-sm flex items-center justify-center gap-1">
-              Feito com <Heart className="w-4 h-4 text-destructive fill-destructive" /> © 2024 Todos os direitos reservados.
+               © 2026 Todos os direitos reservados.
             </p>
             <p className="text-white/30 text-xs mt-2">
               Este produto não substitui a orientação de um profissional de saúde.
