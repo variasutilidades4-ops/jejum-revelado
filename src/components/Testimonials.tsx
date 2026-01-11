@@ -96,12 +96,7 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground">
-            E muitos outros resultados incríveis...
-          </p>
-        </div>
+ 
       </div>
     </section>
   );

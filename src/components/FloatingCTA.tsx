@@ -25,7 +25,7 @@ const FloatingCTA = () => {
         href="#oferta" 
         className="btn-cta w-full justify-center text-base"
       >
-        GARANTIR MINHA VAGA
+        GARANTIR MINHA PROMOÇÃO
         <ArrowUp className="w-5 h-5 ml-2" />
       </a>
     </div>
