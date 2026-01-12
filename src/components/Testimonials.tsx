@@ -41,7 +41,7 @@ const Testimonials = () => {
           ))}
         </div>
         <p className="text-center text-muted-foreground mb-12">
-          <strong className="text-foreground">4.9/5</strong> baseado em +500 avaliações
+          <strong className="text-foreground">4.9/5</strong> baseado em +50 avaliações
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
