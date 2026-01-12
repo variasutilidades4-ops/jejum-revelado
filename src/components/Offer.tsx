@@ -38,11 +38,11 @@ const Offer = () => {
             {/* Price */}
             <div className="text-center mb-8">
               <p className="text-muted-foreground text-lg">
-                De <span className="line-through" style={{ color: 'red' }}>R$ 216,00</span> por apenas:
+                De <span className="line-through" style={{ color: 'red' }}>R$ 297,00</span> por apenas:
               </p>
               <div className="flex items-center justify-center gap-2 my-4">
                 <span className="text-2xl font-bold text-foreground">12x de</span>
-                <span className="text-4xl md:text-7xl font-extrabold text-gradient">R$ 10,03</span>
+                <span className="text-4xl md:text-7xl font-extrabold text-gradient">R$ 10,00</span>
               </div>
               <p className="text-muted-foreground">
                 ou <span className="font-bold text-foreground">R$ 97,00</span> à vista
@@ -119,11 +119,11 @@ const Offer = () => {
             {/* Price */}
             <div className="text-center mb-8">
               <p className="text-muted-foreground text-lg">
-                De <span className="line-through" style={{ color: 'red' }}>R$ 129,90</span> por apenas:
+                De <span className="line-through" style={{ color: 'red' }}>R$ 149,90</span> por apenas:
               </p>
               <div className="flex items-center justify-center gap-2 my-4">
                 <span className="text-2xl font-bold text-foreground">12x de</span>
-                <span className="text-4xl md:text-7xl font-extrabold text-gradient">R$ 6,93</span>
+                <span className="text-4xl md:text-7xl font-extrabold text-gradient">R$ 6,90</span>
               </div>
               <p className="text-muted-foreground">
                 ou <span className="font-bold text-foreground">R$ 67,00</span> à vista
