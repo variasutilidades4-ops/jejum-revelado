@@ -43,22 +43,6 @@ const Hero = () => {
             </div>
             <div className="grid grid-cols-2 gap-y-8 gap-x-4 max-w-md mx-auto lg:mx-0">
 
-              {/* Item 1 */}
-              <div className="flex flex-col items-center text-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
-                  <Timer className="w-5 h-5" />
-                </div>
-                <span className="text-sm font-medium">Resultados em 7 dias</span>
-              </div>
-
-              {/* Item 2 */}
-              <div className="flex flex-col items-center text-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
-                  <Heart className="w-5 h-5" />
-                </div>
-                <span className="text-sm font-medium">Método comprovado</span>
-              </div>
-
               {/* Item 3 */}
               <div className="flex flex-col items-center text-center gap-2">
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
