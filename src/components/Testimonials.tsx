@@ -2,6 +2,18 @@ import { Star, MessageCircle } from "lucide-react";
 
 const testimonials = [
   {
+    id: 4,
+    path: "assets/dep-4.jpg"
+  },
+  {
+    id: 5,
+    path: "assets/dep-5.jpg"
+  },
+  {
+    id: 6,
+    path: "assets/dep-6.jpg"
+  },
+  {
     id: 1,
     path: "assets/dep-1.png"
   },
@@ -45,18 +57,34 @@ const Testimonials = () => {
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="testimonial-card hover:shadow-xl transition-shadow">
-              {/* Container com posição relativa e overflow escondido */}
-              <div className="relative overflow-hidden bg-gradient-to-br from-green-50 to-green-100 rounded-xl aspect-[3/4] border-2 border-dashed border-primary/30 mb-4">
-                <img
-                  src={testimonial.path}
-                  alt="depoimentos"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+          {testimonials.map((testimonial) => {
+            // Verifica se a extensão é PNG
+            const isPng = testimonial.path.toLowerCase().endsWith('.png');
+
+            return (
+              <div key={testimonial.id} className="testimonial-card hover:shadow-xl transition-shadow">
+                {!isPng ? (
+                  /* SOLUÇÃO PARA PNG (A debaixo que você citou: Object Contain/Fundo Cinza) */
+                  <div className="relative overflow-hidden bg-gray-50 rounded-xl aspect-[3/4] border border-gray-200 mb-4 flex items-center justify-center">
+                    <img
+                      src={testimonial.path}
+                      alt="depoimentos"
+                      className="w-full h-full object-contain p-2"
+                    />
+                  </div>
+                ) : (
+                  /* SOLUÇÃO PARA JPG/OUTROS (A de cima: Object Cover/Gradient Red) */
+                  <div className="relative overflow-hidden bg-gradient-to-br from-red-50 to-red-100 rounded-xl aspect-[3/4] border-2 border-dashed border-primary/30 mb-4">
+                    <img
+                      src={testimonial.path}
+                      alt="depoimentos"
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
+                  </div>
+                )}
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
       </div>

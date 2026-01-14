@@ -52,7 +52,7 @@ const Offer = () => {
             {/* CTA Button */}
             <div className="text-center mb-8">
               <a
-                href="#"
+                href="https://pay.herospark.com/os-segredos-do-jejum-beneficios-da-dieta-carnivora-495711"
                 className="btn-cta pulse-glow text-l px-12 py-5 w-full md:w-auto inline-flex"
               >
                 QUERO A MELHOR OFERTA AGORA
@@ -133,7 +133,7 @@ const Offer = () => {
             {/* CTA Button */}
             <div className="text-center mb-8">
               <a
-                href="#"
+                href="https://pay.herospark.com/os-segredos-do-jejum-495702"
                 className="btn-cta pulse-glow text-xl px-8 py-5 w-full md:w-auto inline-flex"
               >
                 COMPRAR AGORA
